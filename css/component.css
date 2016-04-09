@@ -10,6 +10,10 @@ body, html {
   overflow: hidden;
 }
 
+p {
+  margin-bottom: 1.3rem;
+}
+
 .cbp-qtrotator {
   position: relative;
 }
@@ -40,5 +44,45 @@ blockquote p {
 }
 
 blockquote code {
-  padding: 0 0.5rem;
+  background-color: #f3f3f3;
+  padding: 0.5rem;
 }
+
+.key {
+  padding-bottom: 0;
+}
+
+.key:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.key:hover + div {
+  background: #F3F3F3;
+  color: #333333;
+  cursor: pointer;
+  display: block;
+  height: 292px;
+  opacity: 1.0;
+}
+
+.key-content {
+  opacity: 0;
+  color: #ffffff;
+  height: 15px;
+  margin-top: 48px;
+  margin-right: 15px;
+  background: (#F3F3F3, 0);
+  padding: 0 25px 0 25px;
+  border-radius: 6px;
+  transition: height 0.3s, background 0.3s, color 1.0s, opacity 0.3s;
+}
+
+.key-content:before {
+  content: "▲";
+  color: #F3F3F3;
+  position: relative;
+  top: -12px;
+  left: 15px;
+}
+
