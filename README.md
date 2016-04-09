@@ -1,5 +1,6 @@
-# vimtips
+# Sketch Shortcuts
+Speed up your Sketch workflow with these handy shortcuts. Learn a new set with every new tab.
 
-![Vim Tips Chrome Extension](screenshot.png)
+![Sketch Shortcuts Chrome Extension](/sketchshortcuts.gif)
 
-Vim tips!
+
