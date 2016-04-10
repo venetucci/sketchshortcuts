@@ -165,7 +165,7 @@ $('#cbp-qtrotator').cbpQTRotator();
 
 // Google Analytics
 var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-24725855-9']);
+_gaq.push(['_setAccount', 'UA-53862111-3']);
 _gaq.push(['_trackPageview']);
 
 (function() {
